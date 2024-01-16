@@ -126,7 +126,7 @@
     text-align: center;
     font-size: 40px;
     font-weight: 800;
- 
+
 }
 
 .div-1 {
@@ -169,23 +169,26 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
-   margin-bottom: 10px;
+    margin-bottom: 10px;
 }
-.row-2{
+
+.row-2 {
     display: grid;
-    grid-template-columns: repeat(3, 30% 40% 30% );
+    grid-template-columns: repeat(3, 30% 40% 30%);
 }
 
 
-.Srilanka{
+.Srilanka {
     position: relative;
     margin-left: 70px;
 }
-.srilanka img{
+
+.srilanka img {
     height: 100%;
     width: 100%;
 }
-.srilanka-text h2{
+
+.srilanka-text h2 {
     position: absolute;
     top: 34%;
     color: #fff;
@@ -194,15 +197,17 @@
     font-weight: 800;
 }
 
-.North-America{
+.North-America {
     position: relative;
     margin-left: 70px;
 }
-.North-America img{
+
+.North-America img {
     height: 100%;
     width: 100%;
 }
-.North-America-text h2{
+
+.North-America-text h2 {
     position: absolute;
     top: 34%;
     color: #fff;
@@ -210,15 +215,18 @@
     font-size: 28px;
     font-weight: 800;
 }
-.Kashmir{
+
+.Kashmir {
     position: relative;
-    
+
 }
-.Kashmir img{
+
+.Kashmir img {
     height: 100%;
     width: 100%;
 }
-.Kashmir-text h2{
+
+.Kashmir-text h2 {
     position: absolute;
     top: 34%;
     color: #fff;
@@ -229,37 +237,23 @@
 
 
 
-.row-3{
+.row-3 {
     display: grid;
     grid-template-columns: repeat(2, 45% 50%);
     margin-top: 30px;
 }
-.bangladesh{
-   position: relative;
 
-}
-.Bangladesh img{
-    width: 100%;
-    height: 100%;
-}
-.Bangladesh-text h2{
-   position: absolute;
-    top: 34%;
-    color: #fff;
-    left: 40%;
-    font-size: 28px;
-    font-weight: 800;
-}
-
-.Bandarban{
+.bangladesh {
     position: relative;
+
 }
-.Bandarban img{
+
+.Bangladesh img {
     width: 100%;
     height: 100%;
-    margin-left: -63;
 }
-.Bandarban-text{
+
+.Bangladesh-text h2 {
     position: absolute;
     top: 34%;
     color: #fff;
@@ -268,12 +262,259 @@
     font-weight: 800;
 }
 
+.Bandarban {
+    position: relative;
+}
+
+.Bandarban img {
+    width: 100%;
+    height: 100%;
+    margin-left: -63;
+}
+
+.Bandarban-text {
+    position: absolute;
+    top: 34%;
+    color: #fff;
+    left: 40%;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* choose section start */
+.choose-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.choose-content {
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 100px;
+}
+
+.choose-content h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-content p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.choose-box {
+    display: flex;
+    gap: 20px;
+}
+
+.box-left {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+}
+
+.box-right {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px;
+}
+
+
+
+
+
+.choose-bottom {
+    width: max-content;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 10px 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+/* choose section end */
+
+
+/* watch-section start */
+.watch-section {
+
+    display: flex;
+    gap: 20px;
+
+    padding: 20px;
+}
+
+.watch-content {
+    padding: 30px;
+}
+
+.watch-content .watch-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+
+}
+
+.watch-content p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.watch-list li {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.watch-btn {
+    margin-top: 25px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+
+}
+
+.watch-img {
+    background-image: url('Images/Group\ 40089.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.watch-img h2 {
+    margin-top: 176px;
+    margin-left: 159px;
+    color: #fff;
+}
+
+/* watch-section end */
+
+
+/* newsletter section start */
+.news {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+    margin-bottom: 100px;
+}
+
+.news-left {
+    border: 2px solid #FF5400;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.news-left h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.news-left p{
+    margin-bottom: 15px;
+}
+.news-left input {
+    margin-top: 15px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 393px;
+    height: 52px;
+    margin-bottom: 17px;
+    border: 1px solid #FF5400;
+    padding: 5px 20px;
+   
+}
+.news-left .btn{
+    border-radius: 8px;
+    background: #FF5400;
+    font-weight: 800;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.img-right{
+    width: 100%;
+    background-repeat: no-repeat;
+    
+    background-image: url("Images/Rectangle\ 8\ \(1\).png");
+}
+.img-right .img-text{
+    background-color: #FF5400;
+    width: 320px;
+    height: 120px;
+    border-radius: 16px;
+    margin-top: 30%;
+    margin-left: 40%;
+    transform: rotate(-19.628deg);
+    text-align: center;
+    color: #FFF;
+}
+.img-text h4{
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.img-text h3{
+    font-weight: 800;
+    font-size: 32px;
+    margin-top: 7px;
+}
+/* newsletter section  End*/
+
+/* footer-section start */
+.main-footer p{
+    text-align: center;
+}
+.footer-content{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.footer-title{ 
+}
+.icon{}
+.social{
+
+    text-align: center;
+}
+/* footer-section end*/
+
+
 
 @media screen and (max-width:600px) {
 
+    .destination img {
+        width: 90%;
+    }
+
     .nav-section,
     .banner-input-section,
-    .tour-section {
+    .tour-section,
+    .choose-box,
+    .watch-section,
+    .news {
         flex-direction: column;
     }
 
@@ -285,19 +526,34 @@
     .banner-input-section {
         margin-bottom: 20px;
     }
-    .row{
+
+    .row {
         grid-template-columns: 1fr;
 
         width: 90%;
     }
-    .row-2{
+
+    .row-2 {
 
         grid-template-columns: 1fr;
         width: 90%;
     }
-    .row-3{
+
+    .row-3 {
         grid-template-columns: 1fr;
         width: 90%;
-      
+
     }
+
+    .choose-bottom {
+        width: max-content;
+    }
+    .img-right{
+        height: 500px;
+    }
+    .img-right .img-text{
+        margin-top: 43%;
+        margin-left: 40%;
+    }
+
 }
